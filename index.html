@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    
@@ -13,7 +14,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">Nicholas J. Goudeau</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,19 +22,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
+              <a class="nav-link" href="contact.html">LinkedIn</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">GitHub</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
     </nav>
     <div class="container">
-        <div class="card my-3 col-md-7 col-lg-7">
+        <div class="my-3 col-md-12 col-lg-12">
             <div class= "row">
                 <div class="col-md-12">
                     <h1>About Me</h1>
@@ -44,9 +45,45 @@
                 
                 <p class="mx-3"><img src="assets/images/headshot1.png" class="mr-3 float-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae elit a erat iaculis tempor non vitae sem. Donec fringilla ligula vel tristique convallis. Donec imperdiet commodo enim in porttitor. Etiam ultricies arcu vitae elementum pulvinar. Vestibulum facilisis massa nec dui pretium, eget porta dui feugiat. Etiam ultrices suscipit massa ut rutrum. Duis tempor nunc justo, sit amet dignissim enim tincidunt ut. Phasellus ac fringilla nisl. Nullam dignissim nulla sem, eu iaculis nibh iaculis sed. Donec eu tincidunt risus. Phasellus fermentum dapibus neque nec dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae elit a erat iaculis tempor non vitae sem. Donec fringilla ligula vel tristique convallis. Donec imperdiet commodo enim in porttitor. Etiam ultricies arcu vitae elementum pulvinar.</p>
                 
-                <p class="float-left mx-3">Vestibulum facilisis massa nec dui pretium, eget porta dui feugiat. Etiam ultrices suscipit massa ut rutrum. Duis tempor nunc justo, sit amet dignissim enim tincidunt ut. Phasellus ac fringilla nisl. Nullam dignissim nulla sem, eu iaculis nibh iaculis sed. Donec eu tincidunt risus. Phasellus fermentum dapibus neque nec dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae elit a erat iaculis tempor non vitae sem. Donec fringilla ligula vel tristique convallis. Donec imperdiet commodo enim in porttitor. Etiam ultricies arcu vitae elementum pulvinar. Vestibulum facilisis massa nec dui pretium, eget porta dui feugiat. Etiam ultrices suscipit massa ut rutrum. Duis tempor nunc justo, sit amet dignissim enim tincidunt ut. Phasellus ac fringilla nisl. Nullam dignissim nulla sem, eu iaculis nibh iaculis sed. Donec eu tincidunt risus. Phasellus fermentum dapibus neque nec dapibus.</p>
             </div>
         </div>
+        <div class="my-4 col-md-12"> 
+          <div class="row">
+              <!-- <div class="col-md-12">
+                  <h1>Portfolio</h1>
+              </div> -->
+          </div>
+          
+          <div>
+              <div class="row">
+                  <div class=" col-md-12 topProjectsHeader">Major Projects</div>
+              </div>
+              <hr>
+              <div class="row projectImg">
+                      <div class = "mt-3 col-md-4 col-sm-4 projectImg">
+                          <img src="assets/images/weatherApp.png" class="projects">
+                          <hr>
+                          <h4 class="projectName"></h4>
+                      </div>
+                      <div class = "my-3 col-md-4 col-sm-4" >
+                          <img src="assets/images/concertFinder.png" class="projects">
+                          <hr>
+                          <h4 class="projectName"></h4>
+                      </div>
+                      <div class = "mt-3 col-md-4 col-sm-4" >
+                          <img src="assets/images/dailyCalendar.png" class="projects">
+                          <hr>
+                          <h4 class="projectName"></h4>
+                  </div>
+  
+              </div>
+              <div class="projectList row"></div>
+              <div class="projectList row"></div>
+              <div class="row contactMe"></div>
+
+      
+              </div>    
+          </div>
     </div>
 
     
@@ -54,7 +91,4 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
 </body>
-<footer class="sticky-footer">
-    <p>&copy; Nicholas Goudeau</p>
-    </footer>
 </html>
