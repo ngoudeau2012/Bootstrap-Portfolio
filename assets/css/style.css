@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
+.bgColor{
     background-color: #364f6b;
     padding: 1.9em;
     color: ivory;
@@ -22,9 +22,6 @@ h1,.topProjectsHeader{
     color: #4aaaa5;
     margin-top: .3em;
     margin-bottom: 0em;
-    font-weight: bold;
-}
-.active{
     font-weight: bold;
 }
 .navbar-brand{
@@ -46,5 +43,21 @@ hr{
    
 }
 .projects{
-    max-width: 350px;
+    min-width: 100%;
+    height: auto;
+}
+.projectInfo{
+    text-align: left;
+}
+.projectLine{
+    margin-bottom: 0em;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        text-align: center;
+        vertical-align: middle;
+    }
+    .navbar-toggler-icon {
+        color: white;
 }
