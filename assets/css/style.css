@@ -48,11 +48,19 @@ hr{
 }
 .projectInfo{
     text-align: left;
+    color: #364f6b;
+}
+.card-title{
+    color: #364f6b;
 }
 .projectLine{
     margin-bottom: 0em;
 }
-
+.projectLinks{
+    color: #4aaaa5;
+    margin-right: .75em;
+    float: left;
+}
 @media only screen and (max-width: 600px){
     .navbar{
         text-align: center;
